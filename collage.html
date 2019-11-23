@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Khazar Travel</title>
+  <link rel="stylesheet" href="vendorss/css/slick.css">
+  <link rel="stylesheet" href="vendorss/css/bootstrap.css">
+  <link rel="stylesheet" href="vendorss/css/slick-theme.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+    integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700,800,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- Header - Start -->
+  <header id="Header">
+    <div class="container p-0">
+      <div class="header-all row justify-content-between">
+        <div class="col-md-2 headerLogo">
+          <a href="index.html"><img class="img-fluid" src="image/logo.png" alt=""></a>
+        </div>
+        <div class="col-md-8 row" style="padding: 20px 0;">
+          <div class="col-md-4 text-right">
+            <img style="padding-bottom: 3px;" src="image/clock.png" alt="" srcset=""><span
+              style="padding-left: 10px; font-size: 14px; font-weight: 500;">10:00 — 18:00</span>
+          </div>
+          <div class="col-md-4 text-right">
+            <img style="padding-bottom: 3px;" src="image/phone.png" alt="" srcset=""> <span
+              style="padding-left: 10px; font-size: 14px; font-weight: 500;">+994 12 505-50-10</span>
+          </div>
+          <div class="col-md-4 text-center">
+            <div class="dropdown">
+              <button style="font-size: 14px; font-weight: 500;" class="dropbtn">Choose the language</button>
+              <div class="dropdown-content">
+                <a href="#"><img style="width: 12%;" src="https://image.flaticon.com/icons/svg/555/555554.svg"
+                    alt=""><span style="padding-left: 7px;font-size: 14px;font-weight: bold;">AZ</span></a>
+                <a href="#"><img style="width: 12%;" src="https://image.flaticon.com/icons/svg/555/555527.svg"
+                    alt=""><span style="padding-left: 7px;font-size: 14px;font-weight: bold;">ENG</span></a>
+                <a href="#"><img style="width: 12%;" src="https://image.flaticon.com/icons/svg/555/555451.svg"
+                    alt=""><span style="padding-left: 7px;font-size: 14px;font-weight: bold;">RUS</span></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+  <!-- Header - End -->
+
+
+  <!-- Media - Header -->
+
+  <section id="MediaHeader" style="display: none;">
+    <div class="container-fluid">
+      <div class="media-all row justify-content-between">
+        <div class="col-6 row">
+          <div class="col-1">
+            <span style="font-size:30px;cursor:pointer" id="hLeft" onclick="openNav()"><i
+                class="fas fa-bars"></i></span>
+          </div>
+          <div class="col-10">
+            <a href="index.html"><img src="image/logo.png" alt=""></a>
+          </div>
+          <div id="mySidenav" class="sidenav">
+            <div class="social row justify-content-center">
+              <i class="fab fa-facebook-f"></i>
+              <i class="fab fa-instagram"></i>
+            </div>
+            <div class="dropdown">
+              <a href="about.html"><button class="dropbtn">About Us</button></a>
+              <div class="dropdown-content">
+                <a href="services.html">Service overview</a>
+                <a href="contact.html">Contact us</a>
+              </div>
+            </div>
+            <div class="dropdown">
+              <a href="visit.html"><button class="dropbtn">Visit Azerbaijan</button></a>
+              <div class="dropdown-content">
+                <a href="incoming.html">Incoming Department</a>
+                <a href="hotels.html">Hotels</a>
+                <a href="transfer.html">Transportation Service</a>
+                <a href="VIP.html">Khazar Travel VIP</a>
+              </div>
+            </div>
+            <div class="dropdown">
+              <a href="collage.html"><button class="dropbtn">Travel Around</button></a>
+              <div class="dropdown-content">
+                <a href="collage.html">Tours</a>
+                <a href="outgoing.html">Outgoing Department</a>
+                <a href="#">Leisure Travel</a>
+                <a href="business.html">Business Travel</a>
+                <a href="VIP.html">Khazar Travel VIP</a>
+              </div>
+            </div>
+            <div class="dropdown">
+              <a href="ticketing.html"><button class="dropbtn">Fly with us</button></a>
+              <div class="dropdown-content">
+                <a href="ticketing.html">Ticketing</a>
+              </div>
+            </div>
+            <div class="dropdown">
+              <a href="residence.html"><button class="dropbtn">Visa Support</button></a>
+              <div class="dropdown-content">
+                <a href="residence.html">Work & Residence Permit in Azerbaijan</a>
+                <a href="visaOther.html">Visa for other countries</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 text-right" style="padding-top: 15px !important;">
+          <i style="cursor: pointer;" onclick="openNavS()" id="hRight" class="fas fa-ellipsis-v"></i>
+          <div id="mySidenavS" class="sidenavS">
+            <i class="far fa-clock"><span style="padding-left: 11px;">10:00 — 18:00</span></i>
+            <i class="fa fa-phone"><span style="font-weight: 100;padding-left: 10px;">+994 12 505-50-10</span></i>
+            <div class="media-btn text-center">
+              <button type="submit">Get a Free Quote</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- Media - Header -->
+
+
+
+  <!-- Header - End -->
+
+
+
+  <!-- Header2 - Start -->
+
+  <section id="Header2">
+    <div class="container p-0">
+      <div class="header2-all row">
+        <div class="drops-all col-md-10">
+          <div class="dropdown">
+            <a href="about.html"><button class="dropbtn">About Us</button></a>
+            <div class="dropdown-content">
+              <a href="services.html">Service overview</a>
+              <a href="contact.html">Contact us</a>
+            </div>
+          </div>
+          <div class="dropdown">
+            <a href="visit.html"><button class="dropbtn">Visit Azerbaijan</button></a>
+            <div class="dropdown-content">
+              <a href="incoming.html">Incoming Department</a>
+              <a href="hotels.html">Hotels</a>
+              <a href="transfer.html">Transportation Service</a>
+              <a href="VIP.html">Khazar Travel VIP</a>
+            </div>
+          </div>
+          <div  style="background: rgba(255,255,255,0.11);" class="dropdown">
+            <a href="collage.html"><button class="dropbtn">Travel Around</button></a>
+            <div class="dropdown-content">
+              <a href="collage.html">Tours</a>
+              <a href="outgoing.html">Outgoing Department</a>
+              <a href="#">Leisure Travel</a>
+              <a href="business.html">Business Travel</a>
+              <a href="VIP.html">Khazar Travel VIP</a>
+            </div>
+          </div>
+          <div class="dropdown">
+            <a href="ticketing.html"><button class="dropbtn">Fly with us</button></a>
+            <div class="dropdown-content">
+              <a href="ticketing.html">Ticketing</a>
+            </div>
+          </div>
+          <div class="dropdown">
+            <a href="residence.html"><button class="dropbtn">Visa Support</button></a>
+            <div class="dropdown-content">
+              <a href="residence.html">Work & Residence Permit in Azerbaijan</a>
+              <a href="visaOther.html">Visa for other countries</a>
+            </div>
+          </div>
+        </div>
+        <div class="social">
+          <a href=""><i class="fab fa-facebook-f"></i></a>
+          <a href=""><i class="fab fa-instagram"></i></a>
+          <a href=""><i class="fas fa-envelope"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Header2 - End -->
+
+
+  <!-- About Photo Effect - start  -->
+  <div class="banner-tours">
+    <div class="banner-text">
+      <h1 data-aos="fade-up">GREAT TOURS</h1>
+      <a href="about.html">About</a>
+      <span>/ Tours</span>
+    </div>
+  </div>
+
+  <!-- About Photo Effect - End -->
+
+  <section data-aos="fade-up" id="Packages">
+      <div class="container">
+        <div class="story text-center">
+          <h2>Our Tour <span style="font-weight: bold; color: #fbb901;">Packages</span></h2>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde, dolorum. Ea officiis totam laudantium minus tenetur, nobis</p>
+        </div>
+      </div>
+    </section>
+
+
+  <div class="collage">
+    <figure data-aos="fade-right" class="gallery__item gallery__item--1">
+      <a href="abouttour.html"><img class="gallery__img" src="image/london.jpg" alt=""></a>
+      <div class="gallery-txt">
+        <h3>LONDON</h3>
+      </div>
+      <div class="overlay">
+        <a href="abouttour.html">
+          <div class="overlay-txt">
+            <h3 style="font-weight: bold;">London</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto pariatur ipsa beatae culpa, quisquam
+              natus dicta excepturi minus odio alias magnam delectus, neque id?</p>
+          </div>
+        </a>
+      </div>
+    </figure>
+    <figure data-aos="fade-left" class="gallery__item gallery__item--2">
+      <a href="abouttour.html"><img class="gallery__img" src="image/barcelona.jpg" alt=""></a>
+      <div class="gallery-txt">
+        <h3>SUNNY BARCELONA</h3>
+      </div>
+      <div class="overlay">
+        <a href="abouttour.html">
+          <div class="overlay-txt">
+            <h3 style="font-weight: bold;">Sunny Barcelona</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto pariatur ipsa beatae culpa, quisquam
+              natus dicta excepturi minus odio alias magnam delectus, neque id?</p>
+          </div>
+        </a>
+    </figure>
+    <figure data-aos="fade-right" class="gallery__item gallery__item--3">
+      <a href="tour.html"><img class="gallery__img" src="image/portugal.jpg" alt=""></a>
+      <div class="gallery-txt">
+        <h3>VACATION IN PORTUGAL</h3>
+      </div>
+      <div class="overlay">
+        <a href="tour.html">
+          <div class="overlay-txt">
+            <h3 style="font-weight: bold;">Portugal</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto pariatur ipsa beatae culpa, quisquam
+              natus dicta excepturi minus odio alias magnam delectus, neque id?</p>
+          </div>
+        </a>
+      </div>
+    </figure>
+    <figure data-aos="fade-left" class="gallery__item gallery__item--4">
+      <a href="tour.html"><img class="gallery__img" src="image/newyork.jpg" alt=""></a>
+      <div class="gallery-txt">
+        <h3>I LOVE NEW YORK</h3>
+      </div>
+      <div class="overlay">
+        <a href="tour.html">
+          <div class="overlay-txt">
+            <h3 style="font-weight: bold;">New York</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto pariatur ipsa beatae culpa, quisquam
+              natus dicta excepturi minus odio alias magnam delectus, neque id?</p>
+          </div>
+        </a>
+      </div>
+    </figure>
+    <figure data-aos="fade-up" class="gallery__item gallery__item--5">
+      <a href="tour.html"><img class="gallery__img" src="image/sevilla.jpg" alt=""></a>
+      <div class="gallery-txt">
+        <h3>MAGNIFICENT SEVILLA</h3>
+      </div>
+      <div class="overlay">
+        <a href="tour.html">
+          <div class="overlay-txt">
+            <h3 style="font-weight: bold;">Sevilla</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto pariatur ipsa beatae culpa, quisquam
+              natus dicta excepturi minus odio alias magnam delectus, neque id?</p>
+          </div>
+        </a>
+      </div>
+    </figure>
+    <figure data-aos="fade-down" class="gallery__item gallery__item--6">
+      <a href="tour.html"><img class="gallery__img" src="image/budapest.jpg" alt=""></a>
+      <div class="gallery-txt">
+        <h3>VISIT BEAUTIFUL BUDAPEST</h3>
+      </div>
+      <div class="overlay">
+        <a href="tour.html">
+          <div class="overlay-txt">
+            <h3 style="font-weight: bold;">Budapest</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto pariatur ipsa beatae culpa, quisquam
+              natus dicta excepturi minus odio alias magnam delectus, neque id?</p>
+          </div>
+        </a>
+      </div>
+    </figure>
+    <figure data-aos="fade-up" class="gallery__item gallery__item--7">
+      <a href=""><img class="gallery__img" src="image/paris.jpg" alt=""></a>
+      <div class="gallery-txt">
+        <h3>LOVE IN PARIS</h3>
+      </div>
+      <div class="overlay">
+        <a href="tour.html">
+          <div class="overlay-txt">
+            <h3 style="font-weight: bold;">Paris</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto pariatur ipsa beatae culpa, quisquam
+              natus dicta excepturi minus odio alias magnam delectus, neque id?</p>
+          </div>
+        </a>
+      </div>
+    </figure>
+    <figure data-aos="fade-right" class="gallery__item gallery__item--8">
+      <a href=""><img class="gallery__img" src="image/milan.jpg" alt=""></a>
+      <div class="gallery-txt">
+        <h3>MILAN</h3>
+      </div>
+      <div class="overlay">
+        <a href="tour.html">
+          <div class="overlay-txt">
+            <h3 style="font-weight: bold;">Milan</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto pariatur ipsa beatae culpa, quisquam
+              natus dicta excepturi minus odio alias magnam delectus, neque id?</p>
+          </div>
+        </a>
+      </div>
+    </figure>
+    <figure data-aos="fade-left" class="gallery__item gallery__item--9">
+      <a href=""><img class="gallery__img" src="image/istanbul.jpg" alt=""></a>
+      <div class="gallery-txt">
+        <h3 style="font-weight: bold;">ISTANBUL</h3>
+      </div>
+      <div class="overlay">
+        <a href="tour.html">
+          <div class="overlay-txt">
+            <h3 style="font-weight: bold;">Istanbul</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto pariatur ipsa beatae culpa, quisquam
+              natus dicta excepturi minus odio alias magnam delectus, neque id?</p>
+          </div>
+        </a>
+      </div>
+    </figure>
+    <figure data-aos="fade-right" class="gallery__item gallery__item--10">
+      <a href=""><img class="gallery__img" src="image/cappa.jpg" alt=""></a>
+      <div class="gallery-txt">
+        <h3>BALLOON FLIGHTS</h3>
+      </div>
+      <div class="overlay">
+        <a href="tour.html">
+          <div class="overlay-txt">
+            <h3 style="font-weight: bold;">Cappadocia</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto pariatur ipsa beatae culpa, quisquam
+              natus dicta excepturi minus odio alias magnam delectus, neque id?</p>
+          </div>
+        </a>
+      </div>
+    </figure>
+    <figure data-aos="fade-left" class="gallery__item gallery__item--11">
+      <a href=""><img class="gallery__img" src="image/bali.jpg" alt=""></a>
+      <div class="gallery-txt">
+        <h3>BALI</h3>
+      </div>
+      <div class="overlay">
+        <a href="tour.html">
+          <div class="overlay-txt">
+            <h3 style="font-weight: bold;">Bali</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto pariatur ipsa beatae culpa, quisquam
+              natus dicta excepturi minus odio alias magnam delectus, neque id?</p>
+          </div>
+        </a>
+      </div>
+    </figure>
+  </div>
+
+
+   <!-- Footer - Start -->
+
+   <footer id="Footer">
+    <div class="container">
+      <div class="footer-all row">
+        <div data-aos="fade-up" class="col-md-5 footer-left" style="line-height: 40px;">
+          <h6 style="padding-bottom: 20px;">CONTACT US</h6>
+          <i class="fa fa-phone"><a href="contact.html"><span
+                style="font-weight: 100;font-family: 'Montserrat', sans-serif !important;">+994 12 505-50-10 / +994 12
+                449-40-00</span></a></i>
+          <br>
+          <i class="fas fa-envelope"><a style="font-weight: 100;font-family: 'Montserrat', sans-serif !important;"
+              href="#">info@khazar-travel.com</a></i>
+          <br>
+          <i class="fas fa-location-arrow"><span
+              style="font-weight: 100;font-family: 'Montserrat', sans-serif !important;"><a
+                href="contact.html">Ismayilbey Kutkashenli str.99c Baku, Azerbaijan</a></span></i>
+        </div>
+        <div data-aos="fade-up" class="col-md-4 text-left">
+          <h6 style="padding-bottom: 20px;">QUICK LINKS</h6>
+          <div class="links row">
+            <div class="col-md-6" style="line-height: 30px;">
+              <a href="about.html">About Us</a>
+              <br>
+              <a href="visit.html">About Tours</a>
+              <br>
+              <a href="about.html">Our Team</a>
+            </div>
+            <div class="col-md-6" style="line-height: 30px;">
+              <a href="collage.html">Gallery</a>
+              <br>
+              <a href="">Blog</a>
+            </div>
+          </div>
+        </div>
+        <div data-aos="fade-up" class="col-md-2 footerBtn text-center p-0" style="margin-top: 5vh;">
+          <a href="contact.html"><button class="hoverBtn" type="submit">Get in Touch</button></a>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- Footer - End -->
+
+
+
+  <section id="Footer2">
+    <div class="container">
+      <div class="footer2 row justify-content-between">
+        <div class="col-md-4">
+          <p>© 2019 ComparTeam. All Rights Reserved. </p>
+        </div>
+        <div class="col-md-3">
+          <div class="social">
+            <a href=""><i class="fab fa-facebook-f"></i></a>
+            <a href=""><i class="fab fa-instagram"></i></a>
+            <a href=""><i class="fas fa-envelope"></i></a>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <p>Privacy Policy</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-chevron-up"></i></button>
+
+
+</body>
+<script src="vendor/js/jquery-3.4.1.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+<script src="jquery.counterup.min.js"></script>
+<script src="vendorss/js/slick.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="vendor/js/popper.min.js"></script>
+<script src="vendor/js/bootstrap.min.js"></script>
+<script src="js/app.js"></script>
+<script src="js/Media.js"></script>
+<script src="js/Media2.js"></script>
+<script src="js/ToTop.js"></script>
+
+
+
+
+</html>

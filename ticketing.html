@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Khazar Travel</title>
+  <link rel="stylesheet" href="vendorss/css/slick.css">
+  <link rel="stylesheet" href="vendorss/css/bootstrap.css">
+  <link rel="stylesheet" href="vendorss/css/slick-theme.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+    integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700,800,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- Header - Start -->
+  <header id="Header">
+    <div class="container p-0">
+      <div class="header-all row justify-content-between">
+        <div class="col-md-2 headerLogo">
+          <a href="index.html"><img class="img-fluid" src="image/logo.png" alt=""></a>
+        </div>
+        <div class="col-md-8 row" style="padding: 20px 0;">
+          <div class="col-md-4 text-right">
+            <img style="padding-bottom: 3px;" src="image/clock.png" alt="" srcset=""><span
+              style="padding-left: 10px; font-size: 14px; font-weight: 500;">10:00 — 18:00</span>
+          </div>
+          <div class="col-md-4 text-right">
+            <img style="padding-bottom: 3px;" src="image/phone.png" alt="" srcset=""> <span
+              style="padding-left: 10px; font-size: 14px; font-weight: 500;">+994 12 505-50-10</span>
+          </div>
+          <div class="col-md-4 text-center">
+            <div class="dropdown">
+              <button style="font-size: 14px; font-weight: 500;" class="dropbtn">Choose the language</button>
+              <div class="dropdown-content">
+                <a href="#"><img style="width: 12%;" src="https://image.flaticon.com/icons/svg/555/555554.svg"
+                    alt=""><span style="padding-left: 7px;font-size: 14px;font-weight: bold;">AZ</span></a>
+                <a href="#"><img style="width: 12%;" src="https://image.flaticon.com/icons/svg/555/555527.svg"
+                    alt=""><span style="padding-left: 7px;font-size: 14px;font-weight: bold;">ENG</span></a>
+                <a href="#"><img style="width: 12%;" src="https://image.flaticon.com/icons/svg/555/555451.svg"
+                    alt=""><span style="padding-left: 7px;font-size: 14px;font-weight: bold;">RUS</span></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+  <!-- Header - End -->
+
+
+  <!-- Media - Header -->
+
+  <section id="MediaHeader" style="display: none;">
+    <div class="container-fluid">
+      <div class="media-all row justify-content-between">
+        <div class="col-6 row">
+          <div class="col-1">
+            <span style="font-size:30px;cursor:pointer" id="hLeft" onclick="openNav()"><i
+                class="fas fa-bars"></i></span>
+          </div>
+          <div class="col-10">
+            <a href="index.html"><img src="image/logo.png" alt=""></a>
+          </div>
+          <div id="mySidenav" class="sidenav">
+            <div class="social row justify-content-center">
+              <i class="fab fa-facebook-f"></i>
+              <i class="fab fa-instagram"></i>
+            </div>
+            <div class="dropdown">
+              <a href="about.html"><button class="dropbtn">About Us</button></a>
+              <div class="dropdown-content">
+                <a href="services.html">Service overview</a>
+                <a href="contact.html">Contact us</a>
+              </div>
+            </div>
+            <div class="dropdown">
+              <a href="visit.html"><button class="dropbtn">Visit Azerbaijan</button></a>
+              <div class="dropdown-content">
+                <a href="incoming.html">Incoming Department</a>
+                <a href="hotels.html">Hotels</a>
+                <a href="transfer.html">Transportation Service</a>
+                <a href="VIP.html">Khazar Travel VIP</a>
+              </div>
+            </div>
+            <div class="dropdown">
+              <a href="collage.html"><button class="dropbtn">Travel Around</button></a>
+              <div class="dropdown-content">
+                <a href="collage.html">Tours</a>
+                <a href="outgoing.html">Outgoing Department</a>
+                <a href="#">Leisure Travel</a>
+                <a href="business.html">Business Travel</a>
+                <a href="VIP.html">Khazar Travel VIP</a>
+              </div>
+            </div>
+            <div class="dropdown">
+              <a href="ticketing.html"><button class="dropbtn">Fly with us</button></a>
+              <div class="dropdown-content">
+                <a href="ticketing.html">Ticketing</a>
+              </div>
+            </div>
+            <div class="dropdown">
+              <a href="residence.html"><button class="dropbtn">Visa Support</button></a>
+              <div class="dropdown-content">
+                <a href="residence.html">Work & Residence Permit in Azerbaijan</a>
+                <a href="visaOther.html">Visa for other countries</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 text-right" style="padding-top: 15px !important;">
+          <i style="cursor: pointer;" onclick="openNavS()" id="hRight" class="fas fa-ellipsis-v"></i>
+          <div id="mySidenavS" class="sidenavS">
+            <i class="far fa-clock"><span style="padding-left: 11px;">10:00 — 18:00</span></i>
+            <i class="fa fa-phone"><span style="font-weight: 100;padding-left: 10px;">+994 12 505-50-10</span></i>
+            <div class="media-btn text-center">
+              <button type="submit">Get a Free Quote</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- Media - Header -->
+
+  <!-- Header - End -->
+
+
+
+  <!-- Header2 - Start -->
+
+  <section id="Header2">
+    <div class="container p-0">
+      <div class="header2-all row">
+        <div class="drops-all col-md-10">
+          <div class="dropdown">
+            <a href="about.html"><button class="dropbtn">About Us</button></a>
+            <div class="dropdown-content">
+              <a href="services.html">Service overview</a>
+              <a href="contact.html">Contact us</a>
+            </div>
+          </div>
+          <div class="dropdown">
+            <a href="visit.html"><button class="dropbtn">Visit Azerbaijan</button></a>
+            <div class="dropdown-content">
+              <a href="incoming.html">Incoming Department</a>
+              <a href="hotels.html">Hotels</a>
+              <a href="transfer.html">Transportation Service</a>
+              <a href="VIP.html">Khazar Travel VIP</a>
+            </div>
+          </div>
+          <div class="dropdown">
+            <a href="collage.html"><button class="dropbtn">Travel Around</button></a>
+            <div class="dropdown-content">
+              <a href="collage.html">Tours</a>
+              <a href="outgoing.html">Outgoing Department</a>
+              <a href="#">Leisure Travel</a>
+              <a href="business.html">Business Travel</a>
+              <a href="VIP.html">Khazar Travel VIP</a>
+            </div>
+          </div>
+          <div style="background: rgba(255,255,255,0.11);" class="dropdown">
+            <a href="ticketing.html"><button class="dropbtn">Fly with us</button></a>
+            <div class="dropdown-content">
+              <a href="ticketing.html">Ticketing</a>
+            </div>
+          </div>
+          <div class="dropdown">
+            <a href="residence.html"><button class="dropbtn">Visa Support</button></a>
+            <div class="dropdown-content">
+              <a href="residence.html">Work & Residence Permit in Azerbaijan</a>
+              <a href="visaOther.html">Visa for other countries</a>
+            </div>
+          </div>
+        </div>
+        <div class="social">
+          <a href=""><i class="fab fa-facebook-f"></i></a>
+          <a href=""><i class="fab fa-instagram"></i></a>
+          <a href=""><i class="fas fa-envelope"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Header2 - End -->
+
+
+
+  <section id="IncomingSlider">
+    <div class="container-fluid p-0">
+      <div class="discovers">
+        <div class="discover-box">
+          <img src="image/incoming-photo1.jpg" />
+          <div class="discover-texts ">
+            <h2 data-aos="fade-left">Discover <span>Azerbaijan</span></h2>
+          </div>
+        </div>
+        <div class="discover-box">
+          <img src="image/incoming-photo2.jpg" />
+          <div class="discover-texts">
+            <h2>Discover <span>Azerbaijan</span></h2>
+          </div>
+        </div>
+        <div class="discover-box">
+          <img src="image/incoming-photo3.jpg" />
+          <div class="discover-texts">
+            <h2>Discover <span>Azerbaijan</span></h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="Incoming">
+    <div class="container">
+      <div class="row">
+        <div data-aos="fade-right" class="col-lg-6">
+          <h5>We are keen of Ticketing services</h5>
+          <h2>Ticketing Department
+          </h2>
+          <p>All Ticket Agents have deep knowledge of national and international flight security measures and
+            regulations, as well as the policies of the airline regarding luggage weight and carry-on contents. Our sta°
+            always there to help passengers and customers with inquiries regarding changes or cancellations, and o°er
+            promotional flight details. </p>
+          <ul>
+            <li>Issuing flight tickets and reservations.</li>
+            <li>Helping passengers with modifications <br> or cancel- lations of their existing reservations.</li>
+            <li>Helping passengers check-in for flights.</li>
+            <li>Helping passengers with special needs.</li>
+          </ul>
+        </div>
+        <div data-aos="fade-left" class="col-lg-6">
+          <div data-aos="fade-left" id="Incomings">
+            <div class="discover-all">
+              <div class="discover-box">
+                <img class="img-fluid" src="image/incoming1.jpg" alt="">
+              </div>
+              <div class="discover-box">
+                <img class="img-fluid" src="image/incoming2.jpg" alt="">
+              </div>
+              <div class="discover-box">
+                <img class="img-fluid" src="image/incoming3.jpg" alt="">
+              </div>
+              <div class="discover-box">
+                <img class="img-fluid" src="image/incoming4.jpg" alt="">
+              </div>
+              <div class="discover-box">
+                <img class="img-fluid" src="image/incoming5.jpg" alt="">
+              </div>
+              <div class="discover-box">
+                <img class="img-fluid" src="image/incoming6.jpg" alt="">
+              </div>
+              <div class="discover-box">
+                <img class="img-fluid" src="image/incoming7.jpg" alt="">
+              </div>
+              <div class="discover-box">
+                <img class="img-fluid" src="image/incoming8.jpg" alt="">
+              </div>
+              <div class="discover-box">
+                <img class="img-fluid" src="image/incoming9.jpg" alt="">
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="GalleryIndex">
+    <div class="container-fluid">
+      <div data-aos="fade-up" class="story text-center">
+        <h2>Our <span style="font-weight: bold; color: #fbb901;">Partners</span></h2>
+        <p style="font-size: small;">Enthusiastically mesh long-term high-impact infrastructures.
+      </div>
+      <div data-aos="fade-up" class="galleryIndex-all" style="padding-left: 60px;">
+        <div class="gallery-box">
+          <img style="width: 60%;"
+            src="https://www.pngfind.com/pngs/m/189-1898226_azerbaijan-airlines-logo-hd-png-download.png" alt="">
+        </div>
+        <div class="gallery-box">
+          <img style="width: 60%;"
+            src="https://www.pngfind.com/pngs/m/189-1898226_azerbaijan-airlines-logo-hd-png-download.png" alt="">
+        </div>
+        <div class="gallery-box">
+          <img style="width: 60%;"
+            src="https://www.pngfind.com/pngs/m/189-1898226_azerbaijan-airlines-logo-hd-png-download.png" alt="">
+        </div>
+        <div class="gallery-box">
+          <img style="width: 60%;"
+            src="https://www.pngfind.com/pngs/m/189-1898226_azerbaijan-airlines-logo-hd-png-download.png" alt="">
+        </div>
+        <div class="gallery-box">
+          <img style="width: 60%;"
+            src="https://www.pngfind.com/pngs/m/189-1898226_azerbaijan-airlines-logo-hd-png-download.png" alt="">
+        </div>
+        <div class="gallery-box">
+          <img style="width: 60%;"
+            src="https://www.pngfind.com/pngs/m/189-1898226_azerbaijan-airlines-logo-hd-png-download.png" alt="">
+        </div>
+        <div class="gallery-box">
+          <img style="width: 60%;"
+            src="https://www.pngfind.com/pngs/m/189-1898226_azerbaijan-airlines-logo-hd-png-download.png" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+  <!-- Footer - Start -->
+
+  <footer id="Footer">
+    <div class="container">
+      <div class="footer-all row">
+        <div data-aos="fade-up" class="col-md-5 footer-left" style="line-height: 40px;">
+          <h6 style="padding-bottom: 20px;">CONTACT US</h6>
+          <i class="fa fa-phone"><a href="contact.html"><span
+                style="font-weight: 100;font-family: 'Montserrat', sans-serif !important;">+994 12 505-50-10 / +994 12
+                449-40-00</span></a></i>
+          <br>
+          <i class="fas fa-envelope"><a style="font-weight: 100;font-family: 'Montserrat', sans-serif !important;"
+              href="#">info@khazar-travel.com</a></i>
+          <br>
+          <i class="fas fa-location-arrow"><span
+              style="font-weight: 100;font-family: 'Montserrat', sans-serif !important;"><a
+                href="contact.html">Ismayilbey Kutkashenli str.99c Baku, Azerbaijan</a></span></i>
+        </div>
+        <div data-aos="fade-up" class="col-md-4 text-left">
+          <h6 style="padding-bottom: 20px;">QUICK LINKS</h6>
+          <div class="links row">
+            <div class="col-md-6" style="line-height: 30px;">
+              <a href="about.html">About Us</a>
+              <br>
+              <a href="visit.html">About Tours</a>
+              <br>
+              <a href="about.html">Our Team</a>
+            </div>
+            <div class="col-md-6" style="line-height: 30px;">
+              <a href="collage.html">Gallery</a>
+              <br>
+              <a href="">Blog</a>
+            </div>
+          </div>
+        </div>
+        <div data-aos="fade-up" class="col-md-2 footerBtn text-center p-0" style="margin-top: 5vh;">
+          <a href="contact.html"><button class="hoverBtn" type="submit">Get in Touch</button></a>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- Footer - End -->
+
+
+
+  <section id="Footer2">
+    <div class="container">
+      <div class="footer2 row justify-content-between">
+        <div class="col-md-4">
+          <p>© 2019 ComparTeam. All Rights Reserved. </p>
+        </div>
+        <div class="col-md-3">
+          <div class="social">
+            <a href=""><i class="fab fa-facebook-f"></i></a>
+            <a href=""><i class="fab fa-instagram"></i></a>
+            <a href=""><i class="fas fa-envelope"></i></a>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <p>Privacy Policy</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-chevron-up"></i></button>
+
+
+
+
+</body>
+<script src="vendor/js/jquery-3.4.1.js"></script>
+<script src="vendorss/js/slick.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="vendor/js/popper.min.js"></script>
+<script src="vendor/js/bootstrap.min.js"></script>
+<script src="js/app.js"></script>
+<script src="js/Media.js"></script>
+<script src="js/sliderIndex.js"></script>
+<script src="js/Media2.js"></script>
+<script src="js/partnerSlide.js"></script>
+<script src="js/ToTop.js"></script>
+
+</html>

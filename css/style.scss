@@ -109,10 +109,55 @@ body {
 
 
 
+.a-img{
+    img{
+        width: 100%;
+    }
+}
+
+
+.scrolltop {
+	display:none;
+	width:100%;
+	margin:0 auto;
+	position:fixed;
+	bottom:20px;
+    right:10px;	
+    .scroll {
+        position:absolute;
+        right:20px;
+        color: #fff;
+        bottom:20px;
+        background:#fbb901;
+        padding:15px;
+        text-align: center;
+        margin: 0 0 0 0;
+        cursor:pointer;
+        transition: 0.5s;
+        .fa{
+            font-size:30px;
+            margin-top:-5px;
+            margin-left:1px;
+            transition: 0.5s;
+        }
+        &:hover{
+            background: #162e44;
+	        transition: 0.5s;
+        }	
+        &:hover{
+            .fa{
+                padding-top:-10px;
+            }
+        }
+    }
+}
+
+
 #Header2 {
     background: #162e44;
 
     .header2-all {
+        
         .social {
             padding-top: 17px;
             justify-content: center;
@@ -549,6 +594,8 @@ body {
         }
     }
 }
+
+
 
 #ContactBox {
     .contact-all {
@@ -5124,7 +5171,7 @@ body {
         display: none;
     }
 
-    #mySidenav {
+    #mySidenav {    
         top: 9% !important;
     }
 

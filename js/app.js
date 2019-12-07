@@ -1,4 +1,6 @@
- AOS.init();
+
+
+AOS.init();
 
 $('.mainSlider-all').slick({
   dots: true,
@@ -99,7 +101,6 @@ $('.tour-slide').slick({
 
 
 
-  
 
  
 
